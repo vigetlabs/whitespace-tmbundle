@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Formatting</string>
+	<string>Whitespace</string>
 	<key>ordering</key>
 	<array/>
 	<key>uuid</key>
