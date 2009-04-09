@@ -14,6 +14,6 @@ This is a simple [TextMate][txm] bundle that strips out trailing whitespace and 
     osascript -e 'tell app "TextMate" to reload bundles'
 
 ***
-Copyright (c) 2009 [Viget Labs], released under the MIT license
+Copyright (c) 2009 [Viget Labs][vgt], released under the MIT license
 
   [vgt]: http://viget.com
