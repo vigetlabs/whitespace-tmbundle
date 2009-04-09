@@ -1,7 +1,7 @@
 Whitespace TextMate Bundle
 ==========================
 
-This is a simple [TextMate][txm] bundle that strips out trailing whitespace and replaces tabs with spaces whenever a file is saved. Read more about it on the [Viget Labs developer blog].
+This is a simple [TextMate][txm] bundle that strips out trailing whitespace and replaces tabs with spaces whenever a file is saved. Read more about it on the [Viget Labs developer blog][ext].
 
   [ext]: http://viget.com/extend/out-damned-tabs
   [txm]: http://macromates.com
