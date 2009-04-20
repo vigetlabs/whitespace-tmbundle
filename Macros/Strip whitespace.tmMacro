@@ -47,6 +47,8 @@
 	<string>@s</string>
 	<key>name</key>
 	<string>Strip whitespace</string>
+	<key>scope</key>
+	<string>- text</string>
 	<key>uuid</key>
 	<string>72F17308-B7ED-47BF-AF6E-64E2E3C1365F</string>
 </dict>
