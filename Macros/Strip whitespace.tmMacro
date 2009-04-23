@@ -5,29 +5,48 @@
 	<key>commands</key>
 	<array>
 		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findString</key>
+				<string>\t</string>
+				<key>ignoreCase</key>
+				<false/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string>  </string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
 			<key>command</key>
-			<string>changeTabsToSpaces:</string>
+			<string>findWithOptions:</string>
 		</dict>
 		<dict>
 			<key>argument</key>
 			<dict>
-				<key>beforeRunningCommand</key>
-				<string>nop</string>
-				<key>command</key>
-				<string>perl -pe 's/[\t ]+$//g'</string>
-				<key>fallbackInput</key>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findString</key>
+				<string>( )+$</string>
+				<key>ignoreCase</key>
+				<false/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
 				<string>document</string>
-				<key>input</key>
-				<string>selection</string>
-				<key>name</key>
-				<string>Remove Trailing Spaces in Document / Selection</string>
-				<key>output</key>
-				<string>replaceSelectedText</string>
-				<key>uuid</key>
-				<string>0F8C1F78-6E4C-11D9-91AF-000D93589AF6</string>
+				<key>wrapAround</key>
+				<true/>
 			</dict>
 			<key>command</key>
-			<string>executeCommandWithOptions:</string>
+			<string>findWithOptions:</string>
 		</dict>
 		<dict>
 			<key>argument</key>
@@ -36,8 +55,12 @@
 				<string>saveActiveFile</string>
 				<key>input</key>
 				<string>none</string>
+				<key>name</key>
+				<string>Save Current File</string>
 				<key>output</key>
 				<string>discard</string>
+				<key>uuid</key>
+				<string>A656F2AE-43BD-4DDE-9705-FF8C7E37F2B3</string>
 			</dict>
 			<key>command</key>
 			<string>executeCommandWithOptions:</string>
@@ -46,10 +69,8 @@
 	<key>keyEquivalent</key>
 	<string>@s</string>
 	<key>name</key>
-	<string>Strip whitespace</string>
-	<key>scope</key>
-	<string>- text</string>
+	<string>Strip Whitespace</string>
 	<key>uuid</key>
-	<string>72F17308-B7ED-47BF-AF6E-64E2E3C1365F</string>
+	<string>59E6B2A2-6657-4628-B1EE-A00B38C46E5C</string>
 </dict>
 </plist>
