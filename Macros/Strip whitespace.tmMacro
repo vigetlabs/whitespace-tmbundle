@@ -42,6 +42,8 @@
 				<true/>
 				<key>replaceAllScope</key>
 				<string>document</string>
+				<key>replaceString</key>
+				<string></string>
 				<key>wrapAround</key>
 				<true/>
 			</dict>
